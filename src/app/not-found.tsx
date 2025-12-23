@@ -33,11 +33,18 @@ export default function NotFound() {
 
 					<div className='flex flex-col sm:flex-row items-center justify-center gap-4'>
 						<Link
-							href='/home'
+							href='/'
 							className='flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg font-display font-bold hover:box-glow-sm transition-all'
 						>
 							<Home size={18} />
 							Return Home
+						</Link>
+						<Link
+							href='/contact'
+							className='flex items-center gap-2 px-8 py-3 font-display font-semibold text-primary border border-primary rounded hover:bg-primary/10 transition-colors border-glow'
+						>
+							<Home size={18} />
+							Contact Me
 						</Link>
 					</div>
 				</motion.div>

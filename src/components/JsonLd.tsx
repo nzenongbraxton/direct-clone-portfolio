@@ -30,6 +30,10 @@ export const JsonLd = () => {
 				'@type': 'Person',
 				name: 'Kombou Paul Brice',
 			},
+			{
+				'@type': 'Person',
+				name: 'Eposi Becke',
+			},
 		],
 		worksFor: {
 			'@type': 'Organization',
@@ -41,7 +45,7 @@ export const JsonLd = () => {
 		'@context': 'https://schema.org',
 		'@type': 'Organization',
 		name: 'Cyber Lord Tech Solutions LLC',
-		url: 'https://cyberlord.tech', // Placeholder if different
+		url: 'https://nzenongbraxton.com', // Placeholder if different [cyberlord.tech]
 		logo: 'https://nzenongbraxton.com/favicon.jpeg',
 		founder: {
 			'@type': 'Person',

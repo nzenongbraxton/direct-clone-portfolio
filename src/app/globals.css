@@ -86,7 +86,6 @@
 
 	body {
 		@apply bg-background text-foreground font-body antialiased;
-		background-color: red !important; /* DEBUG: Verify CSS loading */
 		background-image: linear-gradient(
 				hsl(var(--cyber-grid) / 0.3) 1px,
 				transparent 1px

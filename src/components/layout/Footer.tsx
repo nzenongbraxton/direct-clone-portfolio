@@ -24,7 +24,7 @@ const contactInfo = {
 };
 
 const footerLinks = [
-	{ name: 'Home', href: '/home' },
+	{ name: 'Home', href: '/' },
 	{ name: 'Projects', href: '/projects' },
 	{ name: 'About', href: '/about' },
 	{ name: 'Team', href: '/team' },
@@ -41,7 +41,7 @@ export const Footer = () => {
 					{/* Brand */}
 					<div>
 						<Link
-							href='/home'
+							href='/'
 							className='flex items-center gap-2 font-display font-bold text-xl mb-6'
 							aria-label='Nzenong Braxton - Home'
 						>
@@ -151,9 +151,13 @@ export const Footer = () => {
 									className='text-primary flex-shrink-0'
 									aria-hidden='true'
 								/>
-								<span className='text-sm text-muted-foreground'>
+								<a
+									href='https://maps.app.goo.gl/tMyyv1goq63yYQWq5'
+									target='_blank'
+									className='text-muted-foreground hover:text-primary transition-colors break-all'
+								>
 									{contactInfo.address}
-								</span>
+								</a>
 							</div>
 						</address>
 					</div>
@@ -210,7 +214,7 @@ export const Footer = () => {
 						</p>
 						<motion.div whileHover={{ y: -2 }}>
 							<Link
-								href='/home'
+								href='/'
 								className='text-sm text-muted-foreground hover:text-primary transition-colors font-mono'
 							>
 								Back to top ↑

@@ -7,7 +7,7 @@ import { usePathname } from 'next/navigation';
 import { Menu, X, Terminal } from 'lucide-react';
 
 const navLinks = [
-	{ name: 'Home', href: '/home' },
+	{ name: 'Home', href: '/' },
 	{ name: 'Projects', href: '/projects' },
 	{ name: 'About', href: '/about' },
 	{ name: 'Team', href: '/team' },
@@ -45,7 +45,7 @@ export const Navbar = () => {
 					{/* Logo */}
 					<motion.div whileHover={{ scale: 1.05 }}>
 						<Link
-							href='/home'
+							href='/'
 							className='flex items-center gap-2 font-display font-bold text-xl'
 							aria-label='Nzenong Braxton - Home'
 						>
