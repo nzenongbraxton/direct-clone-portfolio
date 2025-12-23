@@ -52,13 +52,13 @@ export const Hero = () => {
 							className='font-display text-4xl md:text-6xl lg:text-7xl font-bold mb-4 tracking-tight'
 						>
 							<span className='text-foreground'>I'm </span>
-							<span className='text-glow text-primary'>Nzenong Kombou</span>
+							<span className='text-glow text-primary' aria-label='Nzenong Braxton'>Nzenong Kombou</span>
 						</h1>
 					</FadeIn>
 
 					<FadeIn delay={0.6}>
 						<p className='font-display text-2xl md:text-4xl lg:text-5xl font-bold mb-6'>
-							<span className='text-foreground'>Mc Braxton</span>
+							<span className='text-foreground' aria-label='Mc Braxton'>Mc Braxton</span>
 						</p>
 					</FadeIn>
 

@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 	title: {
 		default:
 			'NZENONG KOMBOU MC BRAXTON (CYBER-LORD) | Fullstack Software Engineer & Architect',
-		template: '%s | NZENONG KOMBOU MC BRAXTON',
+		template: '%s | NZENONG KOMBOU MC BRAXTON (CYBER-LORD)',
 	},
 	description:
 		'I am a NZENONG KOMBOU MC BRAXTON (CYBER-LORD) an English-speaking Cameroonian Fullstack Software Engineer and Architect of 5+ years of experience (since 2020) and more proficient in Laravel - residing in Buea, attended the College of Technology - Buea (COT), tech advocate, tech tutor, mathematician, Congo enthusiasist, lover of politcs and the sole proprietor of Cyber Lord Tech Solutions LLC. My father, Kombou Paul Brice - is from the Bamilike clan of the Ménoua Division of the West Region of Cameroon and my mother, Eposi Becke - is from the Bakweri clan of the Fako Division of the Southwest Region of Cameroon.',
@@ -44,9 +44,10 @@ export const metadata: Metadata = {
 		'Cyber Lord Tech Solutions',
 		'Cyber-Lord',
 		'Nzenong Braxton',
+		'Nzenong Braxton (Cyber-Lord)'
 	],
 	authors: [{ name: 'NZENONG KOMBOU MC BRAXTON (CYBER-LORD)' }],
-	creator: 'NZENONG KOMBOU MC BRAXTON',
+	creator: 'NZENONG KOMBOU MC BRAXTON (CYBER-LORD)',
 	openGraph: {
 		type: 'website',
 		locale: 'en_US',

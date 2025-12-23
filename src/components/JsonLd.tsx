@@ -50,9 +50,10 @@ export const JsonLd = () => {
 		founder: {
 			'@type': 'Person',
 			name: 'NZENONG KOMBOU MC BRAXTON',
+			alternateName: 'CYBER-LORD',
 		},
 		description:
-			'Software development and tech solutions provided by NZENONG KOMBOU MC BRAXTON.',
+			'Software development and tech solutions provided by NZENONG KOMBOU MC BRAXTON (CYBER-LORD).',
 	};
 
 	return (

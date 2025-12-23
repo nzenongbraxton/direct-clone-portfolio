@@ -28,7 +28,7 @@ const AboutPage = () => {
 								Behind the Code
 							</h1>
 							<p className='text-muted-foreground max-w-3xl mx-auto text-lg leading-relaxed'>
-								I'm Nzenong Kombou Mc Braxton, a passionate Full Stack Developer
+								I'm Nzenong Kombou Mc Braxton (Cyber-Lord), a passionate Full Stack Developer
 								from Cameroon. With expertise spanning frontend frameworks,
 								backend systems, and mobile development, I transform complex
 								ideas into elegant, scalable digital solutions.

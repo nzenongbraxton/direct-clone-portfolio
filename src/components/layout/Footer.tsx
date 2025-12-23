@@ -210,7 +210,7 @@ export const Footer = () => {
 				<div className='mt-12 pt-8 border-t border-border'>
 					<div className='flex flex-col md:flex-row items-center justify-between gap-4'>
 						<p className='text-sm text-muted-foreground font-mono'>
-							© {currentYear} Nzenong Kombou Mc Braxton. All rights reserved.
+							© {currentYear} Nzenong Kombou Mc Braxton (Cyber-Lord). All rights reserved.
 						</p>
 						<motion.div whileHover={{ y: -2 }}>
 							<Link

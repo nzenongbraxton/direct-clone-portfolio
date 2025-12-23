@@ -49,7 +49,7 @@ export const Contact = () => {
 
 							<div className='space-y-4'>
 								<motion.a
-									href='mailto:contact@cyber-lord.dev'
+									href='mailto:contact@nzenongbraxton.com'
 									className='flex items-center gap-4 p-4 bg-card border border-border rounded-lg hover:border-primary/50 transition-colors group'
 									whileHover={{ x: 5 }}
 								>
@@ -60,7 +60,7 @@ export const Contact = () => {
 										<p className='text-xs text-muted-foreground font-mono uppercase'>
 											Email
 										</p>
-										<p className='text-foreground'>contact@cyber-lord.dev</p>
+										<p className='text-foreground'>contact@nzenongbraxton.com</p>
 									</div>
 								</motion.a>
 
