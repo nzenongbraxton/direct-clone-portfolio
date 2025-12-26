@@ -20,6 +20,7 @@ export const JsonLd = () => {
 			'https://youtube.com/@nzenongbraxton',
 			'https://linkedin.com/in/nzenongbraxton',
 			'https://tiktok.com/@nzenongbraxton',
+			'https://signal.me/#p/+237699596551',
 		],
 		address: {
 			'@type': 'PostalAddress',

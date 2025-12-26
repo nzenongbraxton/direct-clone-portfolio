@@ -20,7 +20,7 @@ const platforms = [
 	{
 		name: 'Upwork',
 		icon: ExternalLink,
-		href: 'https://upwork.com/freelancers/nzenongbraxton',
+		href: 'https://upwork.com/freelancers/~0123799e5727e4490a',
 		description: 'Freelance services',
 	},
 	{
